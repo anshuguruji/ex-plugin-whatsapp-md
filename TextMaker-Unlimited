@@ -1110,3 +1110,212 @@ bot(
 		if (url) return await message.sendFromUrl(url)
 	}
 )
+bot(
+	{
+		pattern: 'textgamelogo ?(.*)',
+		fromMe: true,
+		desc: 'Gamelogo text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/free-gaming-logo-maker-for-fps-game-team-546.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'textmshield ?(.*)',
+		fromMe: true,
+		desc: 'mascot shield logo text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url = 'https://en.ephoto360.com/create-mascot-shield-logo-online-for-free-758.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+			'
+	}
+)
+bot(
+	{
+		pattern: 'texthb ?(.*)',
+		fromMe: true,
+		desc: 'Happy Birthday text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url = 'https://en.ephoto360.com/romantic-flower-heart-birthday-cake-by-name-edit-466.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'texthbchoco ?(.*)',
+		fromMe: true,
+		desc: 'Happy Birthday Chocolate text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/chocolate-birthday-cake-with-candle-with-name-generator-461.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'textwings ?(.*)',
+		fromMe: true,
+		desc: 'Heart Wings text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/write-name-on-heart-with-wings-gifs-430.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'textadglow ?(.*)',
+		fromMe: true,
+		desc: 'Advanced Glow text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/advanced-glow-effects-74.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'logowings ?(.*)',
+		fromMe: true,
+		desc: ' Make wings text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/create-colorful-angel-wing-avatars-731.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'logobear ?(.*)',
+		fromMe: true,
+		desc: ' Make bear logo text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/free-bear-logo-maker-online-673.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'logodragon ?(.*)',
+		fromMe: true,
+		desc: ' Make Dragon logo text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/create-elegant-rotation-logo-online-586.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'logovideo ?(.*)',
+		fromMe: true,
+		desc: ' Make logo intro video text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/free-logo-intro-video-maker-online-558.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'logometal ?(.*)',
+		fromMe: true,
+		desc: ' Make Metal Mascots logo text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/metal-mascots-logo-maker-486.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'logo3d ?(.*)',
+		fromMe: true,
+		desc: ' Make 3d Mascots logo text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/make-team-logo-online-free-432.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'logosline ?(.*)',
+		fromMe: true,
+		desc: ' Make Stylish line logo text effect',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/metal-logo-online-108.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
+bot(
+	{
+		pattern: 'logotigervideo ?(.*)',
+		fromMe: true,
+		desc: ' Make 3d lion logo intro video',
+		type: 'textmaker',
+	},
+	async (message, match) => {
+		if (!match) return await message.sendMessage('Give me text')
+		const effect_url =
+			'https://en.ephoto360.com/create-digital-tiger-logo-video-effect-723.html'
+		const { status, url } = await textMaker(effect_url, match)
+		if (url) return await message.sendFromUrl(url)
+	}
+)
